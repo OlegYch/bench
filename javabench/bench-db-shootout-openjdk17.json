@@ -1,0 +1,268 @@
+{
+  "benchmarks": ["db-shootout"],
+  "format_version": 5,
+  "data": {
+    "db-shootout": {
+      "results": [{
+        "duration_ns": 4488468087,
+        "uptime_ns": 6181634775
+      }, {
+        "duration_ns": 4594685855,
+        "uptime_ns": 10698871999
+      }, {
+        "duration_ns": 4158707764,
+        "uptime_ns": 15323111236
+      }, {
+        "duration_ns": 4258682895,
+        "uptime_ns": 19510443445
+      }, {
+        "duration_ns": 4196471757,
+        "uptime_ns": 23797358208
+      }, {
+        "duration_ns": 4049263580,
+        "uptime_ns": 28022219825
+      }, {
+        "duration_ns": 4314196563,
+        "uptime_ns": 32100472337
+      }, {
+        "duration_ns": 4019342957,
+        "uptime_ns": 36441140835
+      }, {
+        "duration_ns": 4301511864,
+        "uptime_ns": 40488274572
+      }, {
+        "duration_ns": 4247393206,
+        "uptime_ns": 44819429260
+      }, {
+        "duration_ns": 4091292143,
+        "uptime_ns": 49095048374
+      }, {
+        "duration_ns": 4266569783,
+        "uptime_ns": 53214726987
+      }, {
+        "duration_ns": 4219242831,
+        "uptime_ns": 57509632419
+      }, {
+        "duration_ns": 4064503382,
+        "uptime_ns": 61757056737
+      }, {
+        "duration_ns": 4107769314,
+        "uptime_ns": 65850095663
+      }, {
+        "duration_ns": 4231179365,
+        "uptime_ns": 69985655256
+      }],
+      "termination": "normal"
+    }
+  },
+  "environment": {
+    "os": {
+      "virt_mem_committed": 21391884288,
+      "name": "FreeBSD",
+      "open_fd_count": 66,
+      "available_processors": 16,
+      "phys_mem_total": 68624609280,
+      "version": "13.2-RELEASE-p4",
+      "arch": "amd64",
+      "max_fd_count": 1884825,
+      "swap_space_free": 8589934592,
+      "phys_mem_free": 57415397376,
+      "swap_space_total": 8589934592
+    },
+    "vm": {
+      "termination": "normal",
+      "name": "OpenJDK 64-Bit Server VM",
+      "classloading": {
+        "class_count": 6759,
+        "classes_total": 6759
+      },
+      "mode": "mixed mode, sharing",
+      "args": [],
+      "vendor": "OpenJDK BSD Porting Team",
+      "spec_vendor": "Oracle Corporation",
+      "spec_name": "Java Virtual Machine Specification",
+      "compiler": {
+        "name": "HotSpot 64-Bit Tiered Compilers",
+        "compilation_time_ms": 16101
+      },
+      "start_iso": "2023-11-10T12:40:49.280Z",
+      "collectors": [{
+        "name": "G1 Young Generation",
+        "collection_count": 607,
+        "collection_time_ms": 910
+      }, {
+        "name": "G1 Old Generation",
+        "collection_count": 16,
+        "collection_time_ms": 428
+      }],
+      "start_unix_ms": 1699620049280,
+      "version": "17.0.8+7-1",
+      "pools": [{
+        "name": "CodeHeap 'non-nmethods'",
+        "type": "NON_HEAP",
+        "usage": {
+          "init": 2555904,
+          "used": 1392640,
+          "committed": 3211264,
+          "max": 7606272
+        },
+        "peak_usage": {
+          "init": 2555904,
+          "used": 3177344,
+          "committed": 3211264,
+          "max": 7606272
+        }
+      }, {
+        "name": "Metaspace",
+        "type": "NON_HEAP",
+        "usage": {
+          "init": 0,
+          "used": 38397264,
+          "committed": 38666240,
+          "max": -1
+        },
+        "peak_usage": {
+          "init": 0,
+          "used": 38397264,
+          "committed": 38666240,
+          "max": -1
+        }
+      }, {
+        "name": "CodeHeap 'profiled nmethods'",
+        "type": "NON_HEAP",
+        "usage": {
+          "init": 2555904,
+          "used": 9590400,
+          "committed": 9764864,
+          "max": 122023936
+        },
+        "peak_usage": {
+          "init": 2555904,
+          "used": 9681152,
+          "committed": 9764864,
+          "max": 122023936
+        }
+      }, {
+        "name": "Compressed Class Space",
+        "type": "NON_HEAP",
+        "usage": {
+          "init": 0,
+          "used": 4532072,
+          "committed": 4653056,
+          "max": 1073741824
+        },
+        "peak_usage": {
+          "init": 0,
+          "used": 4532072,
+          "committed": 4653056,
+          "max": 1073741824
+        }
+      }, {
+        "name": "G1 Eden Space",
+        "type": "HEAP",
+        "usage": {
+          "init": 58720256,
+          "used": 318767104,
+          "committed": 754974720,
+          "max": -1
+        },
+        "peak_usage": {
+          "init": 58720256,
+          "used": 713031680,
+          "committed": 889192448,
+          "max": -1
+        }
+      }, {
+        "name": "G1 Old Gen",
+        "type": "HEAP",
+        "usage": {
+          "init": 1015021568,
+          "used": 348966368,
+          "committed": 461373440,
+          "max": 17163091968
+        },
+        "peak_usage": {
+          "init": 1015021568,
+          "used": 587902088,
+          "committed": 1031798784,
+          "max": 17163091968
+        }
+      }, {
+        "name": "G1 Survivor Space",
+        "type": "HEAP",
+        "usage": {
+          "init": 0,
+          "used": 20120536,
+          "committed": 25165824,
+          "max": -1
+        },
+        "peak_usage": {
+          "init": 0,
+          "used": 69381328,
+          "committed": 75497472,
+          "max": -1
+        }
+      }, {
+        "name": "CodeHeap 'non-profiled nmethods'",
+        "type": "NON_HEAP",
+        "usage": {
+          "init": 2555904,
+          "used": 5321472,
+          "committed": 5373952,
+          "max": 122028032
+        },
+        "peak_usage": {
+          "init": 2555904,
+          "used": 5321472,
+          "committed": 5373952,
+          "max": 122028032
+        }
+      }],
+      "uptime_ms": 74350,
+      "compressed_oops_mode": "Non-zero based",
+      "threads": {
+        "thread_count": 9,
+        "thread_count_max": 26,
+        "daemon_thread_count": 8,
+        "threads_total": 1563
+      },
+      "spec_version": "17",
+      "memory": {
+        "heap_usage": {
+          "init": 1073741824,
+          "used": 687854008,
+          "committed": 1241513984,
+          "max": 17163091968
+        },
+        "nonheap_usage": {
+          "init": 7667712,
+          "used": 59193344,
+          "committed": 61669376,
+          "max": -1
+        },
+        "pending_finalization_count": 0
+      }
+    },
+    "jre": {
+      "java_version": "17.0.8",
+      "name": "OpenJDK Runtime Environment",
+      "class_path": ["renaissance-gpl-0.15.0.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/database_3-0.15.0.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/scala3-library_3-3.3.1.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/jnr-posix-3.1.18.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/commons-math3-3.6.1.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/agrona-1.19.2.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/mapdb-3.0.10.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/h2-mvstore-2.2.224.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/chronicle-map-3.22.9.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/slf4j-simple-2.0.9.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/scala-library-2.13.12.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/jnr-ffi-2.2.15.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/jnr-constants-0.10.4.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/kotlin-stdlib-1.2.71.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/eclipse-collections-api-11.1.0.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/eclipse-collections-11.1.0.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/eclipse-collections-forkjoin-11.1.0.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/guava-32.1.2-jre.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/lz4-1.3.0.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/elsa-3.0.0-M5.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/chronicle-core-2.22.35.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/chronicle-values-2.22.2.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/chronicle-threads-2.22.16.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/slf4j-api-2.0.9.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/chronicle-wire-2.22.22.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/chronicle-algorithms-2.22.3.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/jna-5.13.0.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/jna-platform-5.13.0.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/jffi-1.3.12.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/jffi-1.3.12-native.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/asm-9.6.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/asm-commons-9.6.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/asm-analysis-9.6.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/asm-tree-9.6.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/asm-util-9.6.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/jnr-a64asm-1.0.0.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/jnr-x86asm-1.0.2.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/kotlin-stdlib-common-1.2.71.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/annotations-13.0.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/failureaccess-1.0.1.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/jsr305-3.0.2.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/checker-qual-3.33.0.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/error_prone_annotations-2.18.0.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/j2objc-annotations-2.8.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/posix-2.22.9.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/chronicle-analytics-2.22.4.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/chronicle-bytes-2.22.25.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/javapoet-1.13.0.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/affinity-3.21ea83.jar", "/usr/home/alex/Downloads/javabench/harness-134049-3466259800404884907/database/lib/compiler-2.21ea81.jar"],
+      "spec_version": "17",
+      "spec_vendor": "Oracle Corporation",
+      "spec_name": "Java Platform API Specification",
+      "home": "/usr/local/openjdk17",
+      "version": "17.0.8+7-1",
+      "java_vendor": "OpenJDK BSD Porting Team",
+      "library_path": ["/usr/java/packages/lib/amd64", "/usr/lib", "/usr/local/lib"]
+    }
+  },
+  "suite": {
+    "git": {
+      "commit_hash": "87358d94a06920c1f66e08dca3869bf96004d115",
+      "commit_date": "2023-10-23T01:23:55+0200",
+      "dirty": "false"
+    },
+    "name": "Renaissance Benchmark Suite",
+    "version": "0.15.0"
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "benchmarks": ["scrabble"],
+  "format_version": 5,
+  "data": {
+    "scrabble": {
+      "results": [{
+        "duration_ns": 378824681,
+        "uptime_ns": 909319100
+      }, {
+        "duration_ns": 269729201,
+        "uptime_ns": 1329411047
+      }, {
+        "duration_ns": 264218458,
+        "uptime_ns": 1638698551
+      }, {
+        "duration_ns": 255987873,
+        "uptime_ns": 1939695830
+      }, {
+        "duration_ns": 265685995,
+        "uptime_ns": 2228120102
+      }, {
+        "duration_ns": 251560939,
+        "uptime_ns": 2525481913
+      }, {
+        "duration_ns": 273054204,
+        "uptime_ns": 2809894149
+      }, {
+        "duration_ns": 284211453,
+        "uptime_ns": 3119521950
+      }, {
+        "duration_ns": 283806765,
+        "uptime_ns": 3441099916
+      }, {
+        "duration_ns": 273241167,
+        "uptime_ns": 3762336545
+      }, {
+        "duration_ns": 278464435,
+        "uptime_ns": 4075565314
+      }, {
+        "duration_ns": 256529963,
+        "uptime_ns": 4390368312
+      }, {
+        "duration_ns": 283441609,
+        "uptime_ns": 4681609397
+      }, {
+        "duration_ns": 274442719,
+        "uptime_ns": 5000458712
+      }, {
+        "duration_ns": 273986481,
+        "uptime_ns": 5312365185
+      }, {
+        "duration_ns": 250654322,
+        "uptime_ns": 5623252990
+      }, {
+        "duration_ns": 231654955,
+        "uptime_ns": 5907037715
+      }, {
+        "duration_ns": 288052106,
+        "uptime_ns": 6171893214
+      }, {
+        "duration_ns": 263689848,
+        "uptime_ns": 6499386221
+      }, {
+        "duration_ns": 249103043,
+        "uptime_ns": 6798021036
+      }, {
+        "duration_ns": 255796389,
+        "uptime_ns": 7079652021
+      }, {
+        "duration_ns": 270531217,
+        "uptime_ns": 7368528541
+      }, {
+        "duration_ns": 276127892,
+        "uptime_ns": 7674843470
+      }, {
+        "duration_ns": 276263564,
+        "uptime_ns": 7987633491
+      }, {
+        "duration_ns": 282623244,
+        "uptime_ns": 8300787998
+      }, {
+        "duration_ns": 278347873,
+        "uptime_ns": 8619866847
+      }, {
+        "duration_ns": 274364128,
+        "uptime_ns": 8933814560
+      }, {
+        "duration_ns": 270358453,
+        "uptime_ns": 9243513362
+      }, {
+        "duration_ns": 274699665,
+        "uptime_ns": 9550281069
+      }, {
+        "duration_ns": 276285905,
+        "uptime_ns": 9860540712
+      }, {
+        "duration_ns": 266350548,
+        "uptime_ns": 10172850434
+      }, {
+        "duration_ns": 261092838,
+        "uptime_ns": 10474940904
+      }, {
+        "duration_ns": 245879183,
+        "uptime_ns": 10769528092
+      }, {
+        "duration_ns": 252207602,
+        "uptime_ns": 11048070749
+      }, {
+        "duration_ns": 244355374,
+        "uptime_ns": 11332573998
+      }, {
+        "duration_ns": 285860935,
+        "uptime_ns": 11607733011
+      }, {
+        "duration_ns": 295577077,
+        "uptime_ns": 11932749722
+      }, {
+        "duration_ns": 269201581,
+        "uptime_ns": 12264974228
+      }, {
+        "duration_ns": 283112832,
+        "uptime_ns": 12569468433
+      }, {
+        "duration_ns": 279539556,
+        "uptime_ns": 12889273995
+      }, {
+        "duration_ns": 255841050,
+        "uptime_ns": 13205795876
+      }, {
+        "duration_ns": 253852902,
+        "uptime_ns": 13494686588
+      }, {
+        "duration_ns": 273861159,
+        "uptime_ns": 13781020211
+      }, {
+        "duration_ns": 275125962,
+        "uptime_ns": 14090069012
+      }, {
+        "duration_ns": 276402837,
+        "uptime_ns": 14401815133
+      }, {
+        "duration_ns": 275141773,
+        "uptime_ns": 14714037743
+      }, {
+        "duration_ns": 253392374,
+        "uptime_ns": 15024923628
+      }, {
+        "duration_ns": 255993673,
+        "uptime_ns": 15311830442
+      }, {
+        "duration_ns": 257544572,
+        "uptime_ns": 15600709194
+      }, {
+        "duration_ns": 243484738,
+        "uptime_ns": 15890230977
+      }],
+      "termination": "normal"
+    }
+  },
+  "environment": {
+    "os": {
+      "virt_mem_committed": 20379119616,
+      "name": "FreeBSD",
+      "open_fd_count": 15,
+      "available_processors": 16,
+      "phys_mem_total": 68624609280,
+      "version": "13.2-RELEASE-p4",
+      "arch": "amd64",
+      "max_fd_count": 1884825,
+      "swap_space_free": 8589934592,
+      "phys_mem_free": 58859655168,
+      "swap_space_total": 8589934592
+    },
+    "vm": {
+      "termination": "normal",
+      "name": "OpenJDK 64-Bit Server VM",
+      "classloading": {
+        "class_count": 2614,
+        "classes_total": 2760
+      },
+      "mode": "mixed mode",
+      "args": [],
+      "vendor": "OpenJDK BSD Porting Team",
+      "spec_vendor": "Oracle Corporation",
+      "spec_name": "Java Virtual Machine Specification",
+      "compiler": {
+        "name": "HotSpot 64-Bit Tiered Compilers",
+        "compilation_time_ms": 4103
+      },
+      "start_iso": "2023-11-10T12:52:12.656Z",
+      "collectors": [{
+        "name": "G1 Young Generation",
+        "collection_count": 396,
+        "collection_time_ms": 1186
+      }, {
+        "name": "G1 Old Generation",
+        "collection_count": 50,
+        "collection_time_ms": 1721
+      }],
+      "start_unix_ms": 1699620732656,
+      "version": "11.0.20+8-1",
+      "pools": [{
+        "name": "CodeHeap 'non-nmethods'",
+        "type": "NON_HEAP",
+        "usage": {
+          "init": 2555904,
+          "used": 2994176,
+          "committed": 3604480,
+          "max": 7598080
+        },
+        "peak_usage": {
+          "init": 2555904,
+          "used": 3010432,
+          "committed": 3604480,
+          "max": 7598080
+        }
+      }, {
+        "name": "Metaspace",
+        "type": "NON_HEAP",
+        "usage": {
+          "init": 0,
+          "used": 22404048,
+          "committed": 23461888,
+          "max": -1
+        },
+        "peak_usage": {
+          "init": 0,
+          "used": 22405912,
+          "committed": 23461888,
+          "max": -1
+        }
+      }, {
+        "name": "CodeHeap 'profiled nmethods'",
+        "type": "NON_HEAP",
+        "usage": {
+          "init": 2555904,
+          "used": 4644352,
+          "committed": 4653056,
+          "max": 122028032
+        },
+        "peak_usage": {
+          "init": 2555904,
+          "used": 4644352,
+          "committed": 4653056,
+          "max": 122028032
+        }
+      }, {
+        "name": "Compressed Class Space",
+        "type": "NON_HEAP",
+        "usage": {
+          "init": 0,
+          "used": 2612336,
+          "committed": 3014656,
+          "max": 1073741824
+        },
+        "peak_usage": {
+          "init": 0,
+          "used": 2612336,
+          "committed": 3014656,
+          "max": 1073741824
+        }
+      }, {
+        "name": "G1 Eden Space",
+        "type": "HEAP",
+        "usage": {
+          "init": 54525952,
+          "used": 264241152,
+          "committed": 369098752,
+          "max": -1
+        },
+        "peak_usage": {
+          "init": 54525952,
+          "used": 524288000,
+          "committed": 729808896,
+          "max": -1
+        }
+      }, {
+        "name": "G1 Old Gen",
+        "type": "HEAP",
+        "usage": {
+          "init": 1019215872,
+          "used": 77219008,
+          "committed": 234881024,
+          "max": 17158897664
+        },
+        "peak_usage": {
+          "init": 1019215872,
+          "used": 85839000,
+          "committed": 1363148800,
+          "max": 17158897664
+        }
+      }, {
+        "name": "G1 Survivor Space",
+        "type": "HEAP",
+        "usage": {
+          "init": 0,
+          "used": 33554432,
+          "committed": 33554432,
+          "max": -1
+        },
+        "peak_usage": {
+          "init": 0,
+          "used": 33554432,
+          "committed": 33554432,
+          "max": -1
+        }
+      }, {
+        "name": "CodeHeap 'non-profiled nmethods'",
+        "type": "NON_HEAP",
+        "usage": {
+          "init": 2555904,
+          "used": 1321600,
+          "committed": 2555904,
+          "max": 122032128
+        },
+        "peak_usage": {
+          "init": 2555904,
+          "used": 1322368,
+          "committed": 2555904,
+          "max": 122032128
+        }
+      }],
+      "uptime_ms": 16207,
+      "compressed_oops_mode": "Non-zero based",
+      "threads": {
+        "thread_count": 20,
+        "thread_count_max": 21,
+        "daemon_thread_count": 19,
+        "threads_total": 70
+      },
+      "spec_version": "11",
+      "memory": {
+        "heap_usage": {
+          "init": 1073741824,
+          "used": 375014592,
+          "committed": 637534208,
+          "max": 17158897664
+        },
+        "nonheap_usage": {
+          "init": 7667712,
+          "used": 33906296,
+          "committed": 37289984,
+          "max": -1
+        },
+        "pending_finalization_count": 0
+      }
+    },
+    "jre": {
+      "java_version": "11.0.20",
+      "name": "OpenJDK Runtime Environment",
+      "class_path": ["renaissance-gpl-0.15.0.jar"],
+      "spec_version": "11",
+      "spec_vendor": "Oracle Corporation",
+      "spec_name": "Java Platform API Specification",
+      "home": "/usr/local/openjdk11",
+      "version": "11.0.20+8-1",
+      "java_vendor": "OpenJDK BSD Porting Team",
+      "library_path": ["/usr/lib", "/usr/local/lib"]
+    }
+  },
+  "suite": {
+    "git": {
+      "commit_hash": "87358d94a06920c1f66e08dca3869bf96004d115",
+      "commit_date": "2023-10-23T01:23:55+0200",
+      "dirty": "false"
+    },
+    "name": "Renaissance Benchmark Suite",
+    "version": "0.15.0"
+  }
+}
